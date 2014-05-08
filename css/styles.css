@@ -1,0 +1,163 @@
+.btn-signup { 
+  color: #FFFFFF; 
+  background-color: #E74C3C; 
+  border-color: #E74C3C;
+    font-family: "Proxima Nova", Arial, sans-serif;
+} 
+ 
+.btn-signup:hover, 
+.btn-signup:focus, 
+.btn-signup:active, 
+.btn-signup.active, 
+.open .dropdown-toggle.btn-signup { 
+  color: #FFFFFF; 
+  background-color: #CF3827; 
+  border-color: #E74C3C; 
+} 
+ 
+.btn-signup:active, 
+.btn-signup.active, 
+.open .dropdown-toggle.btn-signup { 
+  background-image: none; 
+} 
+ 
+.btn-signup.disabled, 
+.btn-signup[disabled], 
+fieldset[disabled] .btn-signup, 
+.btn-signup.disabled:hover, 
+.btn-signup[disabled]:hover, 
+fieldset[disabled] .btn-signup:hover, 
+.btn-signup.disabled:focus, 
+.btn-signup[disabled]:focus, 
+fieldset[disabled] .btn-signup:focus, 
+.btn-signup.disabled:active, 
+.btn-signup[disabled]:active, 
+fieldset[disabled] .btn-signup:active, 
+.btn-signup.disabled.active, 
+.btn-signup[disabled].active, 
+fieldset[disabled] .btn-signup.active { 
+  background-color: #E74C3C; 
+  border-color: #E74C3C; 
+} 
+ 
+.btn-signup .badge { 
+  color: #E74C3C; 
+  background-color: #FFFFFF; 
+}
+
+#navsign {
+    float:right;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    height: 80px;
+    line-height: 80px;
+}
+
+body {
+    background-color: #e74c3c;
+}
+
+.hero {
+    position:relative;
+    width: auto;
+    height: 600px;
+    background-image:url(../images/placeholder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+    margin-top:80px;
+}
+
+#headline {
+    height: 250px;
+    margin-top: 200px;   
+}
+
+.one {
+    height: 450px;
+    color: #FFFFFF;
+}
+
+#intro {
+    background-color: #95a5a6;
+}
+
+h1 {
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight: 200;
+    font-size: 5em;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight: 200;
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Proxima Nova", Arial, sans-serif;
+}
+
+.subhead {
+    margin-top:10px;
+    margin-bottom:20px;
+
+}
+
+p {
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-size: 1.3em;
+    font-weight: 200;
+}
+
+#works {
+    height:300px;
+    background-color: #FFFFFF;
+    color: #666666;
+    text-align:center;
+    
+}
+
+h6 {
+     font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight:200;
+    font-size: 1.7em;
+    font-style: italic;
+    text-shadow: none;
+}
+
+/* Carousel base class */
+.carousel {
+  height: 300px;
+background-color: #e74c3c;
+    color: #ffffff;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 150px;
+  background-color: #e74c3c;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+.try {
+    color: #ffffff;
+    background-color: #c0392b;
+    height: 80px;
+}
+
+.glyphicon {
+    font-size: .7em;
+}
+
+.footer {
+    background-color: #464646;
+    height: 300px;
+}
